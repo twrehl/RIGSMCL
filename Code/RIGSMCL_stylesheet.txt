@@ -1,0 +1,44 @@
+.titlebox .word { display: none; }
+.subscribers .number:after { content: ' Pilots'; }
+.users-online .number:after { content: ' Spectators'; }
+
+.flair {
+    background: url(%%spritesheet%%) no-repeat -9999px;
+    border: 0;
+    padding: 0;
+}
+.flair-ggflair {
+    background-position: 0 0;
+    height: 15px;
+    line-height: 15px;
+    min-width: 11px;
+    text-indent: 14px;
+}
+.flair-hunterflair {
+    background-position: 0 -15px;
+    height: 15px;
+    line-height: 15px;
+    min-width: 16px;
+    text-indent: 19px;
+}
+.flair-mirageflair {
+    background-position: 0 -30px;
+    height: 16px;
+    line-height: 16px;
+    min-width: 15px;
+    text-indent: 18px;
+}
+.flair-sentinelflair {
+    background-position: 0 -46px;
+    height: 16px;
+    line-height: 16px;
+    min-width: 14px;
+    text-indent: 17px;
+}
+.flair-tempestflair {
+    background-position: 0 -62px;
+    height: 16px;
+    line-height: 16px;
+    min-width: 17px;
+    text-indent: 20px;
+}
