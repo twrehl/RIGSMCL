@@ -42,3 +42,105 @@
     min-width: 17px;
     text-indent: 20px;
 }
+.midcol { width: 25px !important; }
+.arrow.up { 
+background: url(%%upvoteicon-unchecked%%) 0 0;
+height: 16px;
+width: 21px
+} 
+.arrow.down { 
+background: url(%%downvoteicon-unchecked%%) 0 0; 
+height: 16px;
+width: 21px
+}
+.arrow.upmod { 
+background: url(%%upvoteicon-checked%%) 0 0;
+height: 16px;
+width: 21px
+} 
+.arrow.downmod { 
+background: url(%%downvoteicon-checked%%) 0 0; 
+height: 16px;
+width: 21px
+}
+
+.thumbnail{
+  height: 50px;
+  width: 50px;
+}
+.thumbnail.self { 
+background: url(%%defaultthumb-pilot%%) 0 0;
+}
+.thumbnail.default { 
+background: url(%%linkthumb%%) 0 0;
+}
+
+.pagename a:after,
+.titlebox .redditname a:after {
+   content: "RIGS: Mechanized Combat League"; /* type the custom name here */
+}
+
+.pagename a, .titlebox .redditname a {
+   font-size: 0!important;
+}
+
+   .pagename a:after {
+       font-size: 18px;
+       vertical-align: bottom;
+   }
+
+
+
+body{
+  background-color: rgb(238,238,238);
+}
+
+.content{
+  margin: 20px 352px 64px 16px;
+
+}
+
+.link{
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: white;
+  box-shadow: 0px 1px 3px rgba(0,0,0,.2);
+  border-radius: 5px;
+  border-left: 3px solid grey;
+}
+
+.link .score{
+  font-size: 1.3em;
+  font-family: 'Trebuchet MS', 'Verdana', sans-serif;
+}
+
+.thing .title{
+  font-family: 'Trebuchet MS', 'Verdana', sans-serif;
+  font-size: 1.3em;
+  color: #48489c;
+}
+
+.side{
+  background-color: rgb(238,238,238);
+  padding: 10px;
+  margin: 10px 5px 0 5px;
+}
+
+.titlebox{
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px rgba(0,0,0,.2);
+}
+
+.sidebox .create{
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px rgba(0,0,0,.2);
+}
+
+.morelink .nub{
+  background: none;
+  background-image: none;
+}
