@@ -1,6 +1,7 @@
 .titlebox .word { display: none; }
 .subscribers .number:after { content: ' Pilots'; }
 .users-online .number:after { content: ' Spectators'; }
+.linkflairlabel {background-color:blue; color:white; }
 
 .flair {
     background: url(%%spritesheet%%) no-repeat -9999px;
