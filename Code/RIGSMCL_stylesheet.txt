@@ -72,28 +72,27 @@ width: 21px
 .thumbnail.self { 
 background: url(%%defaultthumb-pilot%%) 0 0;
 }
-.thumbnail.default { 
-background: url(%%linkthumb%%) 0 0;
-}
-
-.pagename a:after,
-.titlebox .redditname a:after {
-   content: "RIGS: Mechanized Combat League"; /* type the custom name here */
-}
-
-.pagename a, .titlebox .redditname a {
-   font-size: 0!important;
-}
-
-   .pagename a:after {
-       font-size: 18px;
-       vertical-align: bottom;
-   }
-
-
 
 body{
   background-color: rgb(238,238,238);
+}
+
+#header {
+  background: url(%%RIGS-BANNER%%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  height: 190px;
+}
+
+#header-bottom-left{ 
+  position: absolute; 
+  bottom: 0; 
+}
+
+#sr-header-area{
+  background-color: rgba(240, 240, 240, 0.6);
+  border-bottom: none;
 }
 
 .content{
